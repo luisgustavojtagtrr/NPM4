@@ -1,0 +1,124 @@
+@media only screen and (max-width: 385px) {
+    #menu-mobile{
+        display: block;
+    }
+    #menu-normal{
+        display: none;
+    }
+    .sup-header{
+        display: flex;
+        flex-direction: column;
+        justify-content:space-between;
+        align-items: center;
+        height: 100px;
+    }
+    .sup-header-white{
+        height: 105px !important;
+    }
+
+    .banner{
+        height: 240px;
+    }
+
+    .banner nav{
+        display: none;
+    }
+    .banner div:first-child{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .banner h1{
+        font-size: 1.3em;
+        padding: 15px 0px 15px 0px;
+        width: 50%;
+        text-align: center;
+    }
+
+    .banner p{
+        font-size: 0.7em;
+    }
+    .titles h2{
+        font-size: 1em;
+    }
+
+    .titles p{
+        font-size: 0.8em;
+    }
+
+    .itemsApps{
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .itemsApps > div{
+        width: 70%;
+        height: 280px;
+        margin-bottom: 25px;
+    }
+
+    .itemsApps > div h1{
+        font-size: 1.2em;
+    }
+
+    .itemsApps > div p{
+        font-size: 0.8em;
+    }
+
+    .footer-banner{
+        height: 280px;
+    }
+
+    .footer-banner h1{
+        font-size: 1.2em;
+    }
+
+    .footer-banner p{
+        font-size: 0.8em;
+    }
+}
+
+@media only screen and (max-width: 576px) {
+    #menu-mobile{
+        display: block;
+    }
+    #menu-normal{
+        display: none;
+    }
+    .sup-header{
+        display: flex;
+        flex-direction: column;
+        justify-content:space-between;
+        align-items: center;
+        height: 100px;
+    }
+
+    .sup-header-white{
+        height: 115px !important;
+    }
+
+    .banner > nav > a{
+        font-size: 0.8em;
+    }
+
+    .itemsApps{
+        flex-direction: column;
+        align-items: center;
+    }
+    
+
+    .itemsApps > div{
+        width: 65%;
+        height: 280px;
+        margin-bottom: 25px;
+    }
+
+    .itemsApps > div h1{
+        font-size: 1.6em;
+    }
+
+    .itemsApps > div p{
+        font-size: 0.8em;
+    }
+}
